@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Kwitter room</title>
+        <link rel="icon" type="image/x-icon" href="tick.png" />
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn-danger">Logout </button>
+        <center>
+            <h1 class="header">Kwitter       
+                <sup>
+               <img src="m2.png">
+               </sup></h1>
+               <h3 id="user_name" class="color_white"></h3>
+           <div class="form-group input_div_room_page">
+                   <label># Room Name : </label>
+                   <input type="text" id="room_name" class="form-control" placeholder="# Room Name">
+               </div>
+               <button class="btn btn-success" onclick="addRoom();"># Add Room</button>
+               <br><br>
+       </center>
+    </div>
+    <script src="kwittter_room.js"></script>
+    </body>
+</html>
